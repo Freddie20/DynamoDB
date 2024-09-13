@@ -1,0 +1,21 @@
+# Ignore environment files
+.env
+
+# Ignore Google API credentials
+client_secrets.json
+
+# Ignore virtual environments
+venv/
+spark_env/
+.venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore MacOS system files
+.DS_Store.venv/
