@@ -11,11 +11,21 @@ spark_env/
 
 # Ignore compiled Python files
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
 # Ignore MacOS system files
 .DS_Store.venv/
+
+# VS Code settings
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
