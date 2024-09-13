@@ -5,13 +5,12 @@
 client_secrets.json
 
 # Ignore virtual environments
-venv/
-spark_env/
 .venv/
+venv/
 
 # Ignore compiled Python files
 __pycache__/
-*.py[cod]
+*.py[cod]git rm -r --cached .venv/
 *$py.class
 
 # Ignore Jupyter Notebook checkpoints
